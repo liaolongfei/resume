@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="degree_prompt">请选择学历：</string> 
+    <string-array name="degrees_arry"> 
+        <item>初中</item> 
+        <item>高中</item> 
+        <item>中技</item> 
+        <item>中专</item> 
+        <item>大专</item> 
+        <item>本科</item> 
+        <item>MBA</item> 
+        <item>硕士</item> 
+        <item>博士</item> 
+        <item>其他</item> 
+    </string-array> 
+</resources>

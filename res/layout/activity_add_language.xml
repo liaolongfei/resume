@@ -1,0 +1,68 @@
+     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >	
+   
+            <TableRow 
+                android:id="@+id/languageRow"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/type" />
+                <Spinner
+                    android:id="@+id/type"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:prompt="@string/language_prompt"/>
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+              <TableRow 
+                android:id="@+id/skillRow"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/skill" />
+                <Spinner
+                    android:id="@+id/skill"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:prompt="@string/skill_prompt"/>
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+           
+             
+            <TableRow 
+                android:id="@+id/readwriteRow"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/readwrite" />
+                <Spinner
+                    android:id="@+id/readwrite"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:prompt="@string/skill_prompt"/>
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+              <TableRow 
+                android:id="@+id/speaklistenRow"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/speaklisten" />
+                <Spinner
+                    android:id="@+id/speaklisten"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:prompt="@string/skill_prompt"/>
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+       </TableLayout> 

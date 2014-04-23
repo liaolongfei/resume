@@ -1,0 +1,99 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >	
+   
+            <TableRow 
+                android:id="@+id/from_date_row"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/from_date_text" />
+                <TextView 
+                    android:layout_weight="2"
+			        android:id="@+id/fromdate"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" 
+			        android:text="@string/default_from_date" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+            <TableRow 
+                android:id="@+id/over_date_row"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/over_date_text" />
+                <TextView 
+                    android:layout_weight="2"
+			        android:id="@+id/overdate"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content" 
+			        android:text="@string/default_over_date" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+       
+             
+             <TableRow 
+                android:id="@+id/company_row"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/company_text" />
+                <EditText
+                    android:layout_weight="2"
+			        android:id="@+id/company"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:maxLength="20"
+			        android:hint="@string/company_hint">
+			    </EditText>
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+             
+             <TableRow 
+                android:id="@+id/occupation_row"
+                android:padding="10dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/occupation_text" />
+                <EditText
+                    android:layout_weight="2"
+			        android:id="@+id/occupation"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:maxLength="20"
+			        android:hint="@string/occupation_hint">
+			    </EditText>
+                
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+         <TableRow 
+            android:id="@+id/describtion_row"
+            android:padding="10dp">
+            <TextView 
+                android:layout_weight="1"
+       			android:text="@string/describtion_text" />
+
+            <EditText
+                android:id="@+id/describtion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/describtion_hint"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:maxLength="250">
+
+                <requestFocus />
+            </EditText>
+
+ 		</TableRow>
+        <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+            
+               
+</TableLayout> 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+     <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >			   
+            <TableRow 
+                android:id="@+id/personalinfo"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/info" />
+                <TextView
+                    android:id="@+id/more"
+                    android:text="@string/more" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+            
+ 			 
+             <TableRow 
+                android:id="@+id/ability"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/ability" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+    
+             
+             
+             <TableRow android:id="@+id/education"
+                 android:padding="15dp">
+                <TextView
+				      android:layout_weight="1"
+				      android:text="@string/education" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+ 			 <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+ 			 
+ 			 
+ 			 <TableRow android:id="@+id/experience" 
+ 			     android:padding="15dp">
+                <TextView
+				      android:layout_weight="1"
+				      android:text="@string/experience" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+ 			 <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+ 			 
+ 			 
+ 			<TableRow android:id="@+id/project" 
+ 			     android:padding="15dp">
+                <TextView
+				      android:layout_weight="1"
+				      android:text="@string/project" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+ 			 <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+ 		
+ 			 
+ 			 
+ 			 <TableRow android:id="@+id/type" 
+ 			     android:padding="15dp">
+                <TextView
+				      android:layout_weight="1"
+				      android:text="@string/language" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+ 			 <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+ 			 
+ 			 <TableRow android:id="@+id/objective"
+ 			      android:padding="15dp">
+                <TextView
+				      android:layout_weight="1"
+				      android:text="@string/objective" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+ 			 <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+ 			 
+ 			 <TableRow android:id="@+id/evaluation" 
+ 			     android:padding="15dp">
+                <TextView
+				      android:layout_weight="1"
+				      android:text="@string/evaluation" />
+                <TextView
+                    android:text="@string/more" />
+ 			 </TableRow>
+ 			 <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+ 			 
+       </TableLayout> 
+</ScrollView>

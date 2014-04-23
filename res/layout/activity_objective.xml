@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+
+
+    	 <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >	
+             <TableRow 
+                android:id="@+id/job_type"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/job_type" />
+                <TextView
+                    android:id="@+id/myjob_type"
+                    android:layout_gravity="right"
+                    android:text="@string/myjob_type" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+              <TableRow 
+                android:id="@+id/job_address"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/job_address" />
+                <TextView
+                    android:id="@+id/myjob_address"
+                    android:layout_gravity="right"
+                    android:text="@string/myjob_address" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+			 <TableRow 
+                android:id="@+id/industry"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/industry" />
+                <TextView
+                    android:id="@+id/myindustry"
+                    android:layout_gravity="right"
+                    android:text="@string/myindustry" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+              <TableRow 
+                android:id="@+id/occupation"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/occupation" />
+                <TextView
+                    android:id="@+id/myoccupation"
+                    android:layout_gravity="right"
+                    android:text="@string/myoccupation" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+
+             <TableRow 
+                android:id="@+id/dutytime"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/dutytime" />
+                <TextView
+                    android:id="@+id/mydutytime"
+                    android:layout_gravity="right"
+                    android:text="@string/mydutytime" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             <TableRow 
+                android:id="@+id/salary"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/salary" />
+                <TextView
+                    android:id="@+id/mysalary"
+                    android:layout_gravity="right"
+                    android:text="@string/mysalary" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+      
+      
+       </TableLayout> 
+
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+    <ListView android:id="@android:id/list"
+      android:layout_width="fill_parent" android:layout_height="wrap_content" />
+ 
+	<LinearLayout android:orientation="horizontal"
+	    android:paddingTop="10dp"
+	    android:paddingLeft="10dp"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		
+	    <TextView android:id="@+id/eduId" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:visibility="gone"/>
+	    
+	    <LinearLayout android:orientation="horizontal"
+		    android:layout_weight="1"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+	        <TextView android:id="@+id/fromdate" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+	        
+	         <TextView android:id="@+id/date_separator" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+	        
+	        <TextView android:id="@+id/overdate" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+	        
+		</LinearLayout>
+
+		
+
+
+		<TextView android:id="@+id/school" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		
+
+	</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+		android:paddingBottom="10dp"
+	    android:paddingLeft="10dp"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+
+		<TextView android:id="@+id/degree" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" />
+		
+		<TextView android:id="@+id/major" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+	
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- action bar -->
+    <string name="app_name">个人简历</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">测试</string>
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="modify">修改</string>
+    <string name="save">保存</string>
+    <string name="more">></string>
+
+    <!-- 首页 -->
+    <string name="info">个人信息</string>
+    <string name="ability">工作技能</string>
+    <string name="education">教育经历</string>
+    <string name="experience">工作经验</string>
+    <string name="project">项目经验</string>
+    <string name="language">语言能力</string>
+    <string name="objective">求职意向</string>
+    <string name="evaluation">自我评价</string>
+
+    <!-- 个人信息 -->
+    <string name="avatar">头像</string>
+    <string name="name">姓名</string>
+    <string name="myname">廖龙飞</string>
+    <string name="namehint">请输入名字</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="birthday">出生日期</string>
+    <string name="mybirthday">1990&#8211;6&#8211;15</string>
+    <string name="mobile">手机号码</string>
+    <string name="mymobile">13800138000</string>
+    <string name="mobilehint">请输入手机号码</string>
+    <string name="email">常用邮箱</string>
+    <string name="myemail">838376675@qq.com</string>
+    <string name="emailhint">请输入手机号码</string>
+    <string name="address">居住地</string>
+    <string name="myaddress">广东&#8211;广州&#8211;天河区</string>
+    <string name="province_text">省份：</string>
+    <string name="city_text">城市：</string>
+    <string name="county_text">县城镇：</string>
+    <string name="close">关闭</string>
+
+    <!-- 教育经历 -->
+    <string name="no_educations">未添加教育经历，请添加</string>
+    <string name="from_date_text">起始时间</string>
+    <string name="over_date_text">结束时间</string>
+    <string name="school_text">学校</string>
+    <string name="degree_text">学历</string>
+    <string name="major_text">专业</string>
+    <string name="default_from_date">2010&#8211;6&#8211;15</string>
+    <string name="default_over_date">2012&#8211;6&#8211;15</string>
+    <string name="school_hint">请输入学校</string>
+    <string name="degree_hint">请选择学历</string>
+    <string name="major_hint">请输入专业</string>
+
+    <!-- 工作意向 -->
+    <string name="job_type">工作类型</string>
+    <string name="myjob_type">全职</string>
+    <string name="job_address">工作地点</string>
+    <string name="myjob_address">广州</string>
+    <string name="industry">所属行业</string>
+    <string name="myindustry">互联网</string>
+    <string name="occupation">应聘职位</string>
+    <string name="myoccupation">测试工程师</string>
+    <string name="dutytime">到岗时间</string>
+    <string name="mydutytime">一周以内</string>
+    <string name="salary">期望月薪</string>
+    <string name="mysalary">6000~7999</string>
+    <string name="province_prompt">请选择省</string>
+    <string name="city_prompt">请选择市</string>
+
+    <!-- 教育经历 -->
+    <string name="default_evalution">点击增加图标，添加个人评价</string>
+    <string name="evalutionhint">请输入个人评价</string>
+    
+    <string name="skills">输入掌握的工作技能</string>
+
+    <!-- 语言 -->
+    <string name="type">语言</string>
+    <string name="skill">掌握程度</string>
+    <string name="readwrite">读写能力</string>
+    <string name="speaklisten">听说能力</string>
+    <string name="company_text">公司名称</string>
+    <string name="company_hint">请输入公司名称</string>
+    <string name="occupation_text">职位</string>
+    <string name="occupation_hint">职位</string>
+    <string name="describtion_text">职责描述</string>
+    <string name="describtion_hint">请输入职责描述</string>
+    <string name="projectname_text">项目名称</string>
+    <string name="projectname_hint">请输入项目名称</string>
+    <string name="title_text">担任职位</string>
+    <string name="title_hint">请输入担任职位</string>
+    <string name="project_describtion_text">项目描述</string>
+    <string name="project_describtion_hint">请输入项目描述</string>
+    <string name="duty_text">工作职责</string>
+    <string name="duty_hint">请输入工作职责</string>
+   
+
+    <!-- activity标题 -->
+    <string name="title_activity_info">个人信息</string>
+    <string name="title_activity_modify_name">修改名字</string>
+    <string name="title_activity_modify_gender">修改性别</string>
+    <string name="title_activity_modify_mobile">修改手机</string>
+    <string name="title_activity_modify_email">修改邮箱</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_modify_address">选择居住地</string>
+    <string name="title_activity_education">教育经历</string>
+    <string name="title_activity_test">测试activity</string>
+    <string name="title_activity_add_education">增加教育经历</string>
+    <string name="title_activity_modify_education">修改教育经历</string>
+    <string name="title_activity_evaluation">自我评价</string>
+    <string name="title_activity_add_evalution">添加个人评价</string>
+    <string name="title_activity_modify_evalution">修改自我评价</string>
+    <string name="title_activity_objective">求职意向</string>
+    <string name="title_activity_modify_objective">修改求职意向</string>
+    <string name="title_activity_language">语言能力</string>
+    <string name="title_activity_add_language">增加语言能力</string>
+    <string name="title_activity_show_avatar">显示头像</string>
+    <string name="title_activity_experiences">工作经验</string>
+    <string name="title_activity_add_experience">增加工作经验</string>
+    <string name="title_activity_modify_experience">修改工作经验</string>
+    <string name="title_activity_projict">项目经验</string>
+    <string name="title_activity_add_project">添加项目经验</string>
+    <string name="title_activity_modify_project">修改项目经验</string>
+    <string name="title_activity_ability">工作技能</string>
+    <string name="title_activity_add_ability">增加工作技能</string>
+
+</resources>

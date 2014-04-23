@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_prompt">请选择语言：</string> 
+    <string-array name="language_arry"> 
+        <item>英语</item>
+		<item>阿尔巴尼亚文</item>
+		<item>阿拉伯文</item>
+		<item>爱沙尼亚语</item>
+		<item>保加利亚文</item>
+		<item>波兰语</item>
+		<item>朝鲜语</item>
+		<item>丹麦语</item>
+		<item>德语</item>
+		<item>俄语</item>
+		<item>法语</item>
+		<item>芬兰语</item>
+		<item>荷兰语</item>
+		<item>捷克语</item>
+		<item>克罗地亚文</item>
+		<item>拉脱维亚语</item>
+		<item>立陶宛语</item>
+		<item>罗马尼亚语</item>
+		<item>马耳他文</item>
+		<item>挪威语</item>
+		<item>葡萄牙语</item>
+		<item>日语</item>
+		<item>瑞典语</item>
+		<item>塞尔维亚文</item>
+		<item>斯拉维尼亚文</item>
+		<item>斯洛伐克文</item>
+		<item>土耳其文</item>
+		<item>乌克兰文</item>
+		<item>西班牙语</item>
+		<item>希伯来语</item>
+		<item>希腊语</item>
+		<item>匈牙利语</item>
+		<item>意大利语</item>
+		<item>印度文</item>
+		<item>印尼文</item>
+		<item>越南文</item>
+		<item>中文</item>
+		<item>其他</item>
+    </string-array> 
+    
+    <string name="skill_prompt">请选择：</string> 
+    <string-array name="skill_arry"> 
+        <item>不限</item>
+		<item>了解</item>
+		<item>熟悉</item>
+		<item>精通</item>
+    </string-array>
+    
+</resources>

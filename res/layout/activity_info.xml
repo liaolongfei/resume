@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+
+     <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >	
+         
+             <TableRow 
+                android:padding="15dp"
+                android:id="@+id/avatar"
+                
+                android:gravity="center">
+                 <TextView
+                     android:layout_weight="1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/avatar" />
+
+                <ImageView
+                    android:contentDescription="@string/avatar"
+                    android:id="@+id/myavatar"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_action_person" />
+                
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+         
+         		
+            <TableRow 
+                android:id="@+id/name"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/name" />
+                <TextView
+                    android:id="@+id/myname"
+                    android:layout_gravity="right"
+                    android:text="@string/myname" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+             <TableRow 
+                android:id="@+id/gender"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/gender" />
+                <TextView
+                    android:id="@+id/mygender"
+                    android:layout_gravity="right"
+                    android:text="@string/male" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+
+             <TableRow 
+                android:id="@+id/birthday"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/birthday" />
+                <TextView
+                    android:id="@+id/mybirthday"
+                    android:layout_gravity="right"
+                    android:text="@string/mybirthday" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+         
+             
+             <TableRow 
+                android:id="@+id/mobile"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/mobile" />
+                <TextView
+                    android:id="@+id/mymobile"
+                    android:layout_gravity="right"
+                    android:text="@string/mymobile" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+             
+             <TableRow 
+                android:id="@+id/email"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/email" />
+                <TextView
+                    android:id="@+id/myemail"
+                    android:layout_gravity="right"
+                    android:text="@string/myemail" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+           <TableRow 
+                android:id="@+id/address"
+                android:padding="15dp">
+                <TextView 
+                    android:layout_weight="1"
+			        android:text="@string/address" />
+                <TextView
+                    android:id="@+id/myaddress"
+                    android:layout_gravity="right"
+                    android:text="@string/myaddress" />
+ 			 </TableRow>
+             <View android:layout_height="1dip" android:background="@android:color/darker_gray" />
+             
+             
+       </TableLayout> 
+</ScrollView>

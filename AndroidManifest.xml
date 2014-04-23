@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resume"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/activity_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.resume.MainActivity"        
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity          
+            android:name="com.example.resume.info.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity    
+            android:name="com.example.resume.info.ModifyNameActivity"
+            android:label="@string/title_activity_modify_name" >
+        </activity>
+        <activity  
+            android:name="com.example.resume.info.ModifyGenderActivity"
+            android:label="@string/title_activity_modify_gender" >
+        </activity>
+        <activity
+            android:name="com.example.resume.info.ModifyMobileActivity"
+            android:label="@string/title_activity_modify_mobile" >
+        </activity>
+        <activity
+            android:name="com.example.resume.info.ModifyEmaiActivity"
+            android:label="@string/title_activity_modify_email" >
+        </activity>
+        <activity
+            android:name="com.example.resume.info.ModifyAddressActivity"
+            android:label="@string/title_activity_modify_address" >
+        </activity>
+        <activity
+            android:name="com.example.resume.edu.EducationActivity"
+            android:label="@string/title_activity_education" >
+        </activity>
+        <activity
+            android:name="com.example.resume.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.resume.edu.AddEducationActivity"
+            android:label="@string/title_activity_add_education" >
+        </activity>
+        <activity
+            android:name="com.example.resume.edu.ModifyEducationActivity"
+            android:label="@string/title_activity_modify_education" >
+        </activity>
+        <activity
+            android:name="com.example.resume.evaluation.EvaluationActivity"
+            android:label="@string/title_activity_evaluation" >
+        </activity>
+        <activity
+            android:name="com.example.resume.evaluation.ModifyEvalutionActivity"
+            android:label="@string/title_activity_modify_evalution" >
+        </activity>
+        <activity
+            android:name="com.example.resume.objective.ObjectiveActivity"
+            android:label="@string/title_activity_objective" >
+        </activity>
+        <activity
+            android:name="com.example.resume.objective.ModifyObjectiveActivity"
+            android:label="@string/title_activity_modify_objective" >
+        </activity>
+        <activity
+            android:name="com.example.resume.language.LanguageActivity"
+            android:label="@string/title_activity_language" >
+        </activity>
+        <activity
+            android:name="com.example.resume.language.AddLanguageActivity"
+            android:label="@string/title_activity_add_language" >
+        </activity>
+        <activity
+            android:name="com.example.experience.ExperiencesActivity"
+            android:label="@string/title_activity_experiences" >
+        </activity>
+        <activity
+            android:name="com.example.experience.AddExperienceActivity"
+            android:label="@string/title_activity_add_experience" >
+        </activity>
+        <activity
+            android:name="com.example.experience.ModifyExperienceActivity"
+            android:label="@string/title_activity_modify_experience" >
+        </activity>
+        <activity
+            android:name="com.example.resume.project.ProjectActivity"
+            android:label="@string/title_activity_projict" >
+        </activity>
+        <activity
+            android:name="com.example.resume.project.AddProjectActivity"
+            android:label="@string/title_activity_add_project" >
+        </activity>
+        <activity
+            android:name="com.example.resume.project.ModifyProjectActivity"
+            android:label="@string/title_activity_modify_project" >
+        </activity>
+        <activity
+            android:name="com.example.resume.ability.AbilityActivity"
+            android:label="@string/title_activity_ability" >
+        </activity>
+        <activity
+            android:name="com.example.resume.ability.AddAbilityActivity"
+            android:label="@string/title_activity_add_ability" >
+        </activity>
+    </application>
+
+</manifest>

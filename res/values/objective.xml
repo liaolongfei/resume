@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="job_type_prompt">请选择工作类型：</string> 
+    <string-array name="job_type_arry"> 
+        <item>全职</item> 
+        <item>实习</item> 
+        <item>兼职</item> 
+        <item>全/兼职</item> 
+    </string-array> 
+    
+    <string name="industry_prompt">请选择行业：</string> 
+    <string-array name="industry_arry"> 
+        <item>广告</item>
+		<item>文字媒体/出版</item> 
+		<item>机械/设备/重工</item>
+		<item>印刷/包装/造纸</item>
+		<item>采掘业/冶炼</item>
+		<item>娱乐/休闲/体育</item>
+		<item>法律</item>
+		<item>石油/化工/矿产/地质</item>
+		<item>环保</item>
+		<item>交通/运输/物流</item>
+		<item>批发/零售</item>
+		<item>教育/培训/院校</item>
+		<item>学术/科研</item>
+		<item>房地产开发</item>
+		<item>生活服务</item>
+		<item>政府/公共事业</item> 
+		<item>农/林/牧/渔</item> 
+		<item>其他行业</item> 
+		<item>通信/电信/网络设备</item>
+		<item>互联网/电子商务</item>
+		<item>计算机软件</item>
+		<item>电子技术/半导体/集成电路</item>
+		<item>金融/投资/证券</item>
+		<item>贸易/进出口</item>
+		<item>快速消费品(食品、饮料、化妆品)</item>
+		<item>服装/纺织/皮革</item>
+		<item>制药/生物工程</item>
+		<item>建筑/建材/工程</item>
+		<item>专业服务(咨询、人力资源、财会)</item>
+		<item>汽车及零配件</item>
+		<item>中介服务</item> 
+		<item>仪器仪表/工业自动化</item>
+		<item>电力/水利</item>
+		<item>计算机硬件</item>
+		<item>计算机服务(系统、数据服务、维修)</item> 
+		<item>通信/电信运营、增值服务</item>
+		<item>网络游戏</item>
+		<item>会计/审计</item>
+		<item>银行</item>
+		<item>保险</item>
+		<item>家具/家电/工艺品/玩具/珠宝</item> 
+		<item>办公用品及设备</item>
+		<item>医疗/护理/卫生</item>
+		<item>医疗设备/器械 </item>
+		<item>公关/市场推广/会展</item>
+		<item>影视/媒体/艺术/文化传播</item>
+		<item>家居/室内设计/装潢</item>
+		<item>物业管理/商业中心</item>
+		<item>检测，认证</item>
+		<item>酒店/旅游</item>
+		<item>美容/保健</item>
+		<item>航天/航空</item>
+		<item>原材料和加工</item>
+		<item>非盈利机构</item>
+		<item>多元化业务集团公司</item>
+		<item>外包服务</item>
+		<item>奢侈品/收藏品</item>
+		<item>新能源</item>
+    </string-array> 
+    
+    
+     <string name="occupation_prompt">请选择职位：</string> 
+    <string-array name="occupation_arry"> 
+        <item>销售代表</item>
+		<item>销售经理</item>
+		<item>软件开发工程师</item>
+		<item>软件测试工程师</item>
+		<item>客户代表</item>
+		<item>电话销售</item>
+		<item>助理/秘书</item>
+		<item>房地产销售人员</item>
+		<item>销售主管</item>
+		<item>客户服务专员/助理</item>
+		<item>行政专员/助理</item>
+		<item>销售工程师</item>
+		<item>实习生</item>
+		<item>渠道/分销专员</item>
+		<item>平面设计</item>
+		<item>高级软件工程师</item>
+		<item>房地产中介/交易</item>
+		<item>会计</item>
+		<item>售前/售后技术支持工程师</item>
+		<item>其他</item>
+		<item>人力资源专员/助理</item>
+		<item>销售总监</item>
+		<item>前台/总机/接待</item>
+		<item>区域销售总监/经理</item>
+		<item>客户经理</item>
+		<item>市场专员/市场助理</item>
+		<item>投资/理财服务</item>
+		<item>外贸/贸易专员/助理</item>
+		<item>销售行政专员/助理</item>
+		<item>客户咨询热线/呼叫中心人员</item>
+		<item>培训/课程顾问</item>
+		<item>商务专员/助理</item>
+		<item>店员/营业员/导购员</item>
+		<item>研发工程师</item>
+		<item>网页设计/制作/美工</item>
+		<item>市场营销专员/助理</item>
+		<item>出纳员</item>
+		<item>技术支持/维护工程师</item>
+		<item>储备干部</item>
+		<item>网站运营管理</item>
+		<item>行政经理/办公室主任</item>
+		<item>渠道/分销经理/主管</item>
+		<item>工程造价师/预结算经理</item>
+		<item>培训师/讲师</item>
+		<item>室内外装潢设计</item>
+		<item>运营专员</item>
+		<item>市场营销经理</item>
+		<item>网站编辑</item>
+		<item>咨询顾问</item>
+		<item>市场拓展专员/助理</item>
+		<item>采购专员/助理</item>
+        <item>其他</item> 
+    </string-array> 
+    
+    
+    <string name="dutytime_prompt">请选择到岗时间：</string> 
+    <string-array name="dutytime_arry"> 
+        <item>即时</item> 
+        <item>一周以内</item> 
+        <item>两周以内</item> 
+        <item>一个月以内</item> 
+        <item>1~3个月</item> 
+        <item>三个月后</item> 
+        <item>待定</item> 
+    </string-array> 
+    
+    
+        
+    <string name="salary_prompt">请选择月薪：</string> 
+    <string-array name="salary_arry"> 
+        <item>面议</item> 
+        <item>1500以下</item> 
+        <item>1500~1999</item> 
+		<item>2000~2999</item> 
+		<item>3000~4499</item> 
+		<item>4500~5999</item> 
+		<item>6000~7999</item> 
+		<item>8000~9999</item> 
+		<item>10000~14999</item> 
+		<item>15000~19999</item> 
+		<item>20000~29999</item> 
+		<item>30000~49999</item> 
+		<item>50000以上 </item>
+    </string-array> 
+    
+</resources>
