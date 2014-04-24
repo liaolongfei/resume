@@ -176,11 +176,11 @@ public class UserInfoPrefrence {
  
 		}else 
 		{
-			rsg.put(false, "ÇëÊäÈëÕıÈ·µÄÓÊÏä");
+			rsg.put(false, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}
 		
 		
-		return null;
+		return rsg;
 
 	}
 	
