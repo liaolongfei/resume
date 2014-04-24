@@ -18,6 +18,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.Display;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -289,6 +290,9 @@ public class InfoActivity extends Activity {
 		intent.putExtra("aspectX", 1);
 		intent.putExtra("aspectY", 1);
 		// outputX outputY ÊÇ²Ã¼ôÍ¼Æ¬¿í¸ß
+//		Display mDisplay = getWindowManager().getDefaultDisplay();
+//		int outputx = mDisplay.getWidth();
+//		int outputy = mDisplay.getHeight();
 		intent.putExtra("outputX", outputx);
 		intent.putExtra("outputY", outputy);
 		intent.putExtra("return-data", true);

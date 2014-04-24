@@ -45,8 +45,9 @@
     <string name="skill_prompt">请选择：</string> 
     <string-array name="skill_arry"> 
         <item>不限</item>
-		<item>了解</item>
-		<item>熟悉</item>
+		<item>一般</item>
+		<item>良好</item>
+		<item>熟练</item>
 		<item>精通</item>
     </string-array>
     
